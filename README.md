@@ -5,8 +5,7 @@ Projeto petShop feito em NodeJS
 `npm i -g nodemon typescript ts-node`
 
 ### instalação
-`npm install express mustache-express dotenv`
-`npm install --save-dev @types/express @types/mustache-express @types/node`
+`npm install`
 ### Para rodar o projeto
 `npm run start-dev`
 
