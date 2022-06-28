@@ -14,5 +14,11 @@
     </div>
     {{/list}}
 </div>
+{{^list}}
 
+    <div class="container no-list">
+        <h2>Desculpe, estamos sem {{query}}</h2>
+    </div>
+
+{{/list}}
 {{>partials/footer}}

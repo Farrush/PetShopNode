@@ -26,7 +26,7 @@ server.use(express.static(path.join(__dirname,'../public')))
 server.use(mainRoutes)
 //criando a página não encontrada
 server.use((req, res)=>{
-    res.send("<h1>Página não encontrada</h1>")
+    res.render('pages/404')
 })
 
 

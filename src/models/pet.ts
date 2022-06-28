@@ -145,7 +145,7 @@ export const Pet = {
     getFromName: (name: string): Pet[]=>{
         return data.filter(item =>{
 
-            if(item.name.indexOf(name) > -1) {
+            if(item.name.toLocaleLowerCase().indexOf(name) > -1) {
                 return true
             }else{
                 return false
